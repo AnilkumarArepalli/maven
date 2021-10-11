@@ -33,14 +33,14 @@
   </build>
   <distributionManagement>
   <repository>
-     <id>package</id>
-     <name>package</name>
-     <url>http://15.207.115.141:8081/repository/package/</url>
+     <id>maven-central</id>
+     <name>maven-central</name>
+     <url>http://15.207.115.141:8081/repository/maven-central/</url>
   </repository>
   <snapshotRepository>
-     <id>snapshots</id>
-     <name>Snapshots</name>
-     <url>http://15.207.115.141:8081/repository/snapshots/</url>
+     <id>maven-snapshots</id>
+     <name>maven-snapshots</name>
+     <url>http://15.207.115.141:8081/repository/maven-snapshots/</url>
   </snapshotRepository>
 </distributionManagement>
 </project>
